@@ -27,7 +27,7 @@ public class Parker_TeleOP extends OpMode {
         motorRight = hardwareMap.dcMotor.get("motorRight");
         //motorWWIII = hardwareMap.dcMotor.get("motorWWIII");
         //set the left drive motor into reverse
-        motorRight.setDirection(DcMotor.Direction.REVERSE);
+        motorLeft.setDirection(DcMotor.Direction.REVERSE);
 //        servoDoor1 = hardwareMap.servo.get("servoDoor1");
 //        servoDoor2 = hardwareMap.servo.get("servoDoor1");
 

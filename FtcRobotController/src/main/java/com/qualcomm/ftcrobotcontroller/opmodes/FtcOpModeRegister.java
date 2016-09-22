@@ -56,7 +56,9 @@ public class FtcOpModeRegister implements OpModeRegister {
      */
 
     manager.register("BrandonFTC15Tele", BrandonFTC15Tele.class);
-    manager.register("Parker_TeleOP", Parker_TeleOP.class);
+    manager.register("BrandonBlue", BrandonBlue.class);
+    manager.register("BrandonRed", BrandonRed.class);
+    manager.register("BrandonStraight", BrandonStraight.class);
 
     //manager.register("MatrixK9TeleOp", MatrixK9TeleOp.class);
    // manager.register("K9TeleOp", K9TeleOp.class);
